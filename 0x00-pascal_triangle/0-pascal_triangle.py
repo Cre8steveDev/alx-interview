@@ -12,9 +12,9 @@ def pascal_triangle(n):
     
     if n == 2:
         return  array
-    
+
     arr_t = 1
-    for i in range(n):
+    for i in range(2, n):
         collector = []
         inner_arr_len = len(array[arr_t]) - 1
         
