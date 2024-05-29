@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Writing an efficient Solution to solve
 The Pascal Triangle Interview Question in
@@ -6,6 +7,7 @@ ALX Backend Specialization Round
 
 
 def pascal_triangle(n):
+    """Implementation for the solving pascal triangle"""
     if n <= 1:
         return [] if n <= 0 else [[1]]
 
