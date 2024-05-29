@@ -22,7 +22,6 @@ def pascal_triangle(n):
         inner_arr_len = len(array[arr_t]) - 1
 
         collector.append(1)
-        
         for j in range(inner_arr_len):
             slow, fast = array[arr_t][j], array[arr_t][j + 1]
             sum = slow + fast
