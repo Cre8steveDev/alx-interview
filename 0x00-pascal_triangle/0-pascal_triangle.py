@@ -7,7 +7,7 @@ ALX Backend Specialization Round
 
 def pascal_triangle(n):
     if n <= 1:
-        return [] if n <= 0 else [1]
+        return [] if n <= 0 else [[1]]
 
     array = [[1], [1, 1]]
 
@@ -32,4 +32,4 @@ def pascal_triangle(n):
 
 
 if __name__ == "__main__":
-    print(pascal_triangle(5))
+    print(pascal_triangle(1))
