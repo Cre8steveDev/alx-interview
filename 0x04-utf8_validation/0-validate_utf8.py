@@ -8,6 +8,8 @@ def validUTF8(data):
     num_bytes = 0
 
     for num in data:
+        # Mask to keep only the least significant 8 bits
+        num = num & 0xFF
         """ Check if the current number is a
           valid UTF-8 start byte"""
         if num_bytes == 0:
